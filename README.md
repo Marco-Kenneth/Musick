@@ -12,3 +12,8 @@
 
 # Website:
 * Coming Soon
+
+# Instructions On How To Run:
+1. Open Terminal
+2. Run "cd musick"
+3. Run "npm start"
