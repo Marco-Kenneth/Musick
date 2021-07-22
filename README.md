@@ -13,6 +13,10 @@
 # Website:
 * Coming Soon
 
+# Planning:
+* https://docs.google.com/document/d/1Oug-aNC5wUD_DF5-y_Qs0yIcg-_5VbZjrkBjnzUmWqo/edit?usp=sharing 
+* https://trello.com/b/J05B6m2K/musick-kanban-board 
+
 # Instructions On How To Run:
 1. Open Terminal
 2. Run "cd Frontend/musick"
