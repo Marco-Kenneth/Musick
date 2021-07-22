@@ -15,5 +15,5 @@
 
 # Instructions On How To Run:
 1. Open Terminal
-2. Run "cd musick"
+2. Run "cd Frontend/musick"
 3. Run "npm start"
