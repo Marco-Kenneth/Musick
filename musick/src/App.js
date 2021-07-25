@@ -6,8 +6,6 @@ function clicked(){
 }
 
 
-
-
 function App() {
   return (
       <div
