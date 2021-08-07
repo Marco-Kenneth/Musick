@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Marco-Kenneth/Musick/issues"
   },
-  "homepage": "https://github.com/Marco-Kenneth/Musick#readme"
+  "homepage": "https://github.com/Marco-Kenneth/Musick#readme",
+  "dependencies": {
+    "query-string": "^7.0.1",
+    "request": "^2.88.2"
+  }
 }

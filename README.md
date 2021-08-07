@@ -17,7 +17,12 @@
 * https://docs.google.com/document/d/1Oug-aNC5wUD_DF5-y_Qs0yIcg-_5VbZjrkBjnzUmWqo/edit?usp=sharing 
 * https://trello.com/b/J05B6m2K/musick-kanban-board 
 
-# Instructions On How To Run:
+# Instructions On How To Run Frontend:
 1. Open Terminal
 2. Run "cd Frontend/musick"
 3. Run "npm start"
+
+# Instructions On How To Run Backend:
+1. Open Terminal
+2. Run "cd Backend"
+3. Run "node server.js"
