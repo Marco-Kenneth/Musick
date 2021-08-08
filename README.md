@@ -26,3 +26,6 @@
 1. Open Terminal
 2. Run "cd Backend"
 3. Run "node server.js"
+
+# Instructions on how to run app:
+Need to run both Frontend and Backend servers at the same time to get the app working

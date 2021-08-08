@@ -1,24 +1,21 @@
-/* The backend starts a server that listens at port 3000 for connections */
+/* 
+  The backend starts a server that listens at port 5000 for connections.
+  The reason why port is is 5000 is because our react server is on port 3000
+  which is the default for express. 
+*/
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 5000
 
 // req stands for request
 // res stands for response
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+// Each endpoint here is an API route for the frontend to send or receive data from the backend
+app.get('/api/printFromBackend', (req, res) => {
+  res.send('Hello From the backend!')
 })
 
-app.post('/', function (req, res) {
-  res.send('Got a POST request')
-})
-
-app.put('/user', function (req, res) {
-  res.send('Got a PUT request at /user')
-})
-
-app.delete('/user', function (req, res) {
-  res.send('Got a DELETE request at /user')
+app.post('/api/sendDataToBackend', function (req, res) {
+  res.send(`I received your POST request. This is what you sent me: ${req.body.post}`)
 })
 
 app.listen(port, () => {
