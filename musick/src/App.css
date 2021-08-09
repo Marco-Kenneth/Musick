@@ -2,6 +2,44 @@
   text-align: center;
 }
 
+.bg_image{
+  background-image: url("https://images.unsplash.com/photo-1579546929662-711aa81148cf");
+  background-size: cover;
+  height: 100vh;
+  color: #f5f5f5;
+  padding: 0px;
+
+}
+
+//
+
+
+.center{
+   font: Helvetica;
+   text-align: center;
+   font-size: 50px;
+   position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
+}
+
+.no{
+    background-color: #3949ab;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 75%;
+    left: 51%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
